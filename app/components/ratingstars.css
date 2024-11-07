@@ -1,0 +1,15 @@
+/* RatingStars.css */
+.rating-stars {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 30px;
+  color: #ccc; /* Warna untuk bintang yang belum terisi */
+  margin-right: 5px;
+}
+
+.star.filled {
+  color: gold; /* Warna untuk bintang yang sudah terisi */
+}

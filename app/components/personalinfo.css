@@ -1,0 +1,61 @@
+/* app/components/PersonalInfo.css */
+
+.personal-info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: #444;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.info-item strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.info-item span {
+  color: #555;
+}
+
+.info-item:hover {
+  background-color: #e0f7fa;  /* Memberikan efek hover */
+}
+
+@media (max-width: 768px) {
+  .personal-info {
+    padding: 20px;
+  }
+
+  .info-item {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
